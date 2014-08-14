@@ -1,0 +1,34 @@
+[user]
+	name = Miëtek Bak
+	email = mietek@bak.io
+
+[alias]
+	frob = commit -a --amend -C HEAD
+	lol = log --graph --decorate --oneline
+	lola = log --graph --decorate --oneline --all
+	stat = diff --stat
+	snap = !git stash save "snap $(date)" && git stash apply "stash@{0}"
+
+[color]
+	ui = true
+
+[core]
+	editor = mate -w
+	excludesfile = /Users/mietek/.gitignore
+	pager = cat
+	whitespace = trailing-space,space-before-tab
+
+[credential]
+	helper = osxkeychain
+
+[diff]
+	algorithm = patience
+
+[grep]
+	lineNumber = true
+
+[push]
+	default = simple
+
+[rebase]
+	autosquash = true
