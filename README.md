@@ -1,16 +1,10 @@
---------------------------------------------------------------------------------
-
-# dotfiles
+_dotfiles_
+==========
 
 These are my dotfiles.  There are many like them, but these are mine.
 
 
-## Meta
+About
+-----
 
-Written by [Miëtek Bak][].  Say hello@mietek.io
-
-Available under the MIT License.
-
---------------------------------------------------------------------------------
-
-[Miëtek Bak]: http://mietek.io
+Made by [Miëtek Bak](https://mietek.io/).  Published under the [MIT X11 license](https://mietek.io/license/).
