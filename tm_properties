@@ -1,2 +1,6 @@
+windowTitleSCM     = '${TM_SCM_BRANCH:+ ($TM_SCM_BRANCH)}'
+windowTitleProject = '${projectDirectory:+${projectDirectory/^.*\///} — }'
+windowTitle        = '$windowTitleProject$TM_DISPLAYNAME$windowTitleSCM'
+
 [ attr.file.unknown-type ]
 fileType = "text.plain"
